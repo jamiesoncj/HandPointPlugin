@@ -1,4 +1,3 @@
-cordova.define("com.cordova.handpointplugin.HandPointPlugin", function(require, exports, module) { /*global cordova*/
 module.exports = {
 
     connect: function (name, address, port, method, success, failure) {
@@ -24,4 +23,3 @@ module.exports = {
     }
 	
   };
-});
